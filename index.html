@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>EOC</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/png" href="images/flaticon.png" sizes="32x32"> 
+	</head>
+	
+	<body>
+		<header class="header">
+			<div class="header__top">
+				<div class="header__container">
+					<div class="header__container-wrapper">
+						<div class="header__logo">
+							<a class="header__logo-link" href="index.html">
+								<img class="header__logo-img" src="images/logo.png" alt="Logo header" width="113" height="42">
+							</a>
+						</div>
+						<nav class="header__menu">
+							<button class="header__burger-button">&#9776;</button>
+							<div class="header__submenu">
+								<a class="header__menu-login" href="#9">Login</a>
+								<a class="header__menu-link" href="index.html">Home</a>
+								<a class="header__menu-link" href="#7">What Do I</a>
+								<a class="header__menu-link" href="#8">About</a>
+								<a class="header__menu-link" href="#9">Services</a>
+								<a class="header__menu-link" href="#0">Contact Us</a>
+							</div>
+						</nav>
+						<div class="header__login-search">
+							<div class="header__login">
+								<button class="header__login-button">Login</button>
+								<form class="header__login-form" action="#" method="post">
+									<div class="header__login-block">
+										<label class="header__label-login" for="login">Login</label>
+										<input class="header__login-field" id="login" type="text" name="Login">
+									</div>
+									<div class="header__password-block">
+										<label class="header__label-password" for="password">Password</label>
+										<input class="header__password-field" id="password" type="password" name="password">
+									</div>
+									<div class="header__checkbox-block">
+										<label class="header__label-checkbox" for="check">Remember me</label>
+										<input class="header__checkbox" type="checkbox" name="Remember" id="check">
+									</div>
+									<input class="header__login-submit" type="submit" value="Login">
+								</form>
+							</div>
+							<form class="header__search-form" action="#" method="post">
+								<input class="header__text-field" type="text" name="Text" placeholder="Search...">
+								<input class="header__form-button" type="button" value="Search">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__content">
+				<div class="content__slide1">	
+					<div class="content__container container">
+						<div class="text-block">
+							<h1 class="text-block__header">Electrical<br><span class="text-block__header-second">Contractor</span></h1>
+							<div class="text-block__text">
+								<p>
+									It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem 
+								</p>
+							</div>
+							<div class="text-block__links">
+								<a class="text-block__contact" href="#8">CONTACT</a>
+								<a class="text-block__about-us" href="#9">ABOUT US</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content__slide1">	
+					<div class="content__container container">
+						<div class="text-block">
+							<h1 class="text-block__header">Feel confindent<br><span class="text-block__header-second">Using it</span></h1>
+							<div class="text-block__text">
+								<p>
+									It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem 
+								</p>
+							</div>
+							<div class="text-block__links">
+								<a class="text-block__contact" href="#8">CONTACT</a>
+								<a class="text-block__about-us" href="#9">ABOUT US</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content__slide1">	
+					<div class="content__container container">
+						<div class="text-block">
+							<h1 class="text-block__header">Powerful<br><span class="text-block__header-second">Thing</span></h1>
+							<div class="text-block__text">
+								<p>
+									It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem 
+								</p>
+							</div>
+							<div class="text-block__links">
+								<a class="text-block__contact" href="#8">CONTACT</a>
+								<a class="text-block__about-us" href="#9">ABOUT US</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__buttons">
+					<button class="header__button-left" onclick="clickLeft()">
+						<img class="header__arrow-left" src="images/arrow-left.png" alt="Arrow" width="11" height="19">
+					</button>
+					<button class="header__button-right" onclick="clickRight()">
+						<img class="header__arrow-right" src="images/arrow-right.png" alt="Arrow" width="11" height="19">
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="main__services">
+				<div class="services__container container">
+					<div class="services__headers-block">
+						<div class="services__headers headers">
+							<h2 class="services__header-1 header-1">Providing a Range</h2>
+							<h2 class="services__header-2">Commercial & Residential Services</h2>
+						</div>
+						<p class="services__header-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+					</div>
+					<div class="services__list">
+						<div class="item">
+							<div class="item__img-block">
+								<img class="item__image" src="images/tester.png" alt="Tester">
+							</div>
+							<div class="item__text-block">
+								<p class="item__header">Electrical Testing</p>
+								<p class="item__text">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item__img-block">
+								<img class="item__image" src="images/cable.png" alt="Cable">
+							</div>
+							<div class="item__text-block">
+								<p class="item__header">Cable Change</p>
+								<p class="item__text">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item__img-block">
+								<img class="item__image" src="images/engineer.png" alt="engineer">
+							</div>
+							<div class="item__text-block">
+								<p class="item__header">Emergy Survey</p>
+								<p class="item__text">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item__img-block">
+								<img class="item__image" src="images/siren.png" alt="siren">
+							</div>
+							<div class="item__text-block">
+								<p class="item__header">Security Alert</p>
+								<p class="item__text">It is a long established fact that a reader will be distracted by the readable content of
+a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
+							</div>
+						</div>
+					</div>
+					<div class="services__read-more"><a class="services__link" href="#8">Read More</a></div>
+				</div>
+			</section>
+			<section class="main__about">
+				<div class="about__container container">
+					<div class="about__header-block">
+						<h2 class="about__headers headers">About <span class="header-1">Us</span></h2>
+						<p class="about__header-text">It is a long established fact that a reader will be distracted by the readable content ofa page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
+					</div>
+					<div class="about__video-block">
+						<div class="about__images">
+							<img class="about__dots1" src="images/dots-1.webp" alt="Dots-group">
+							<img class="about__dots2" src="images/dots-2.webp" alt="Dots-group-2">
+						</div>
+						<div class="about__video">
+							<div class="about__button-group">
+								<button class="about__video-button"><img class="about__play-icon" src="images/triangle.png" alt="Play">
+								</button>
+								<div class="about__circle1"></div>
+								<div class="about__circle2"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__projects">
+				<div class="container">
+					<div class="projects__header-block">
+						<h2 class="projects__headers headers">Our Recent Projects</h2>
+						<p class="projects__header-text">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content </p>
+					</div>
+					<div class="projects__items">
+						<div class="projects__item-block">	
+							<div class="projects__picture-block">
+								<a class="projects__picture-links" href="#9">
+									<img class="projects__picture" src="images/picture1.webp" alt="Picture1">
+								</a>
+							</div>
+							<p class="projects__picture-text">Modern Fixture</p>
+							<div class="projects__rectangle"></div>
+						</div>
+						<div class="projects__item-block">	
+							<p class="projects__picture-text2">Vintage chandlier</p>
+							<div class="projects__picture-block">
+								<a class="projects__picture-links" href="#9">
+									<img class="projects__picture" src="images/picture2.webp" alt="Picture2">
+								</a>
+							</div>
+							<div class="projects__rectangle2"></div>
+						</div>
+						<div class="projects__item-block">
+							<div class="projects__picture-block">
+								<a class="projects__picture-links" href="#9">
+									<img class="projects__picture" src="images/picture3.webp" alt="Picture3">
+								</a>
+							</div>
+							<p class="projects__picture-text">bulpilo</p>
+							<div class="projects__rectangle"></div>
+						</div>
+					</div>
+					<div class="projects__button">
+						<a class="projects__see-more" href="#9">See more</a>
+					</div>
+				</div>
+			</section>
+			<section class="main__test">
+				<div class="test__container container">
+					<h2 class="test__headers headers">Testimonial</h2>
+					<div class="test__slider-group">
+						<div class="test__slider-block slider-block">
+							<div class="slider-block__photo"><img src="images/photo1.png" alt="Photo1"></div>
+							<p class="slider-block__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
+						</div>
+						<div class="test__slider-block slider-block">
+							<div class="slider-block__photo"><img src="images/photo1.png" alt="Photo1"></div>
+							<p class="slider-block__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
+						</div>
+						<div class="test__slider-block slider-block">
+							<div class="slider-block__photo"><img src="images/photo1.png" alt="Photo1"></div>
+							<p class="slider-block__text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
+						</div>
+						<div class="test__figures">
+							<button class="test__sign" name="button1"></button>
+							<button class="test__sign" name="button2"></button>
+							<button class="test__sign" name="button3"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__contacts">
+				<div class="contacts__form-block">
+					<div class="contacts__container">
+						<h2 class="contacts__header">Contact Us</h2>
+						<form class="contacts__form form" action="#" method="post">
+							<input class="form__text" type="text" name="Name" placeholder="Name">
+							<input class="form__number" type="number" name="Phone number" placeholder="Number">
+							<input class="form__email" type="email" name="Email" placeholder="Email">
+							<textarea class="form__message" name="Message" placeholder="Message"></textarea>
+							<input class="form__submit" type="submit" name="Submit" value="Send">
+						</form>
+					</div>
+				</div>
+				<div class="contacts__map-block">
+					<iframe class="contacts__map" src="https://www.google.com/maps/d/embed?mid=1GKGm9xSjjrbARaeEvP2BbdfwwZx3Tt4W&ehbc=2E312F"></iframe>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__info">
+				<div class="info__container container">
+					<div class="footer__top">
+						<div class="info__logo-block">
+							<div class="info__logo"><img src="images/logo-footer.png" alt="Logo footer"></div>
+							<p class="info__logo-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it </p>
+						</div>
+						<div class="info__links-block">
+							<p class="info__headers">Useful Link</p>
+							<ul>
+								<li class="info__items"><a class="info__links" href="index.html">Home</a></li>
+								<li class="info__items"><a class="info__links" href="#4">About Us</a></li>
+								<li class="info__items"><a class="info__links" href="#4">Contacts</a></li>
+								<li class="info__items"><a class="info__links" href="#4">Projects</a></li>
+								<li class="info__items"><a class="info__links" href="#4">Services</a></li>
+							</ul>
+						</div>
+						<div class="info__contact">
+							<p class="info__headers">Contact</p>
+							<p class="info__contact-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a </p>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<p class="info__subscribe">Subscribe Our News letter</p>
+						<form class="info__form" action="#" method="post">
+							<input class="info__text-field" type="email" name="Email" placeholder="Enter your email">
+							<input class="info__submit" type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p class="copy__text">&copy; 2019 All Rights Reserved. Design by Free Html Templates</p>
+			</div>
+		</footer>
+	<script src="js/menu.js"></script>
+	<script src="js/search-field.js"></script>
+	<script src="js/slider-header.js"></script>
+	<script src="js/button-rings.js"></script>
+	<script src="js/slider-bottom.js"></script>
+	</body>
+</html>
